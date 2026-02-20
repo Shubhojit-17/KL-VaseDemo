@@ -1,22 +1,23 @@
 import { motion } from 'motion/react';
-import vase1Img from '@/assets/vase1.png';
+import heroImg from '@/assets/hero-1.png';
 
 export function Hero() {
   return (
     <section id="hero" className="relative w-full h-screen overflow-hidden flex items-center justify-center bg-[#1A0F0A]">
-      {/* Background Image with subtle zoom in */}
+      {/* Background Image */}
       <motion.div 
         initial={{ scale: 1 }}
-        animate={{ scale: 1.05 }}
+        animate={{ scale: 1.03 }}
         transition={{ duration: 20, ease: "linear", repeat: Infinity, repeatType: "reverse" }}
         className="absolute inset-0 z-0"
       >
         <img 
-          src={vase1Img} 
+          src={heroImg} 
           alt="Hero Background" 
-          className="w-full h-full object-cover opacity-80"
+          className="w-full h-full object-cover object-[center_60%] opacity-70"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-[#1A0F0A]" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#1A0F0A]/60 via-[#1A0F0A]/30 to-[#1A0F0A]" />
+        <div className="absolute inset-0 bg-[#1A0F0A]/20" />
       </motion.div>
 
       {/* Content */}
