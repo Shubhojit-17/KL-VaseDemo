@@ -3,7 +3,7 @@ import heroImg from '@/assets/hero-1.png';
 
 export function Hero() {
   return (
-    <section id="hero" className="relative w-full h-screen overflow-hidden flex items-center justify-center bg-[#1A0F0A]">
+    <section id="hero" className="relative w-full h-screen overflow-hidden flex items-center justify-center bg-[#4A3528]">
       {/* Background Image */}
       <motion.div 
         initial={{ scale: 1 }}
@@ -16,8 +16,8 @@ export function Hero() {
           alt="Hero Background" 
           className="w-full h-full object-cover object-center opacity-70"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-[#1A0F0A]/60 via-[#1A0F0A]/30 to-[#1A0F0A]" />
-        <div className="absolute inset-0 bg-[#1A0F0A]/20" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#4A3528]/60 via-[#4A3528]/30 to-[#4A3528]" />
+        <div className="absolute inset-0 bg-[#4A3528]/20" />
       </motion.div>
 
       {/* Content */}
@@ -45,7 +45,7 @@ export function Hero() {
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1.0, delay: 1.0, ease: "easeOut" }}
-          className="px-10 py-4 border border-[#C5A059] text-[#C5A059] font-['Montserrat'] tracking-[0.2em] uppercase text-xs md:text-sm hover:bg-gradient-to-r hover:from-[#C5A059] hover:to-[#E8D0A9] hover:text-[#1A0F0A] transition-all duration-400 cursor-pointer"
+          className="px-10 py-4 border border-[#C5A059] text-[#C5A059] font-['Montserrat'] tracking-[0.2em] uppercase text-xs md:text-sm hover:bg-gradient-to-r hover:from-[#C5A059] hover:to-[#E8D0A9] hover:text-[#4A3528] transition-all duration-400 cursor-pointer"
         >
           Discover the Collection
         </motion.button>
