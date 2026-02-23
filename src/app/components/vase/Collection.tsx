@@ -21,7 +21,7 @@ const vases = [
 
 export function Collection() {
   return (
-    <section id="collection" className="py-16 md:py-24 bg-[#1A0F0A] px-6">
+    <section id="collection" className="py-16 md:py-24 bg-[#4A3528] px-6">
       <div className="max-w-6xl mx-auto">
         <motion.h2 
           initial={{ opacity: 0, y: 30 }}
@@ -57,7 +57,7 @@ export function Collection() {
                 <p className="font-['Montserrat'] text-[#C5A059] text-xs tracking-[0.2em] font-light">{vase.price}</p>
                 
                 <button 
-                  className="mt-2 px-6 py-2 border border-[#C5A059] text-[#C5A059] font-['Montserrat'] text-[10px] uppercase tracking-widest hover:bg-gradient-to-r hover:from-[#C5A059] hover:to-[#E8D0A9] hover:text-[#1A0F0A] transition-all duration-400 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transform"
+                  className="mt-2 px-6 py-2 border border-[#C5A059] text-[#C5A059] font-['Montserrat'] text-[10px] uppercase tracking-widest hover:bg-gradient-to-r hover:from-[#C5A059] hover:to-[#E8D0A9] hover:text-[#4A3528] transition-all duration-400 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transform"
                 >
                   View Details
                 </button>

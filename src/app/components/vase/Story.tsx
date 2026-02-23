@@ -4,7 +4,7 @@ import vase5Img from '@/assets/vase 5.png';
 
 export function Story() {
   return (
-    <section id="story" className="relative py-16 md:py-24 bg-[#1A0F0A] overflow-hidden">
+    <section id="story" className="relative py-16 md:py-24 bg-[#4A3528] overflow-hidden">
       {/* Background Watermark */}
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-0 overflow-hidden">
         <motion.img 

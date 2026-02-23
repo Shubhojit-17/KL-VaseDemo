@@ -41,7 +41,7 @@ export function Navbar() {
     <nav
       className={clsx(
         'fixed top-0 left-0 w-full z-50 transition-colors duration-500 py-6 px-6 md:px-12 flex justify-between items-center',
-        scrolled ? 'bg-[#1A0F0A] shadow-lg' : 'bg-transparent'
+        scrolled ? 'bg-[#4A3528] shadow-lg' : 'bg-transparent'
       )}
     >
       <div className="flex items-center">
@@ -77,7 +77,7 @@ export function Navbar() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 bg-[#1A0F0A] z-50 flex flex-col items-center justify-center"
+            className="fixed inset-0 bg-[#4A3528] z-50 flex flex-col items-center justify-center"
           >
             <button
               className="absolute top-6 right-6 text-[#C5A059]"

@@ -13,7 +13,7 @@ const vases = [
 
 export function ShopPreview() {
   return (
-    <section className="py-16 md:py-24 bg-[#1A0F0A] px-6">
+    <section className="py-16 md:py-24 bg-[#4A3528] px-6">
       <div className="max-w-5xl mx-auto flex flex-col items-center">
         <motion.h2 
           initial={{ opacity: 0, y: 30 }}
@@ -35,7 +35,7 @@ export function ShopPreview() {
               className="group cursor-pointer flex flex-col items-center"
             >
               <div className="w-full overflow-hidden aspect-[3/4] mb-4 relative border border-transparent transition-all duration-500 group-hover:border-[#C5A059]/30">
-                 <div className="absolute inset-0 bg-[#1A0F0A]/20 group-hover:bg-transparent transition-all z-10 duration-500" />
+                 <div className="absolute inset-0 bg-[#4A3528]/20 group-hover:bg-transparent transition-all z-10 duration-500" />
                  <img src={vase.image} alt={vase.name} loading="lazy" className="w-full h-full object-cover transition-transform duration-1000 ease-out group-hover:scale-105" />
               </div>
               <h3 className="text-center font-['Cormorant_Garamond'] text-lg md:text-xl text-[#FDFBF7] group-hover:text-[#C5A059] transition-colors duration-300">{vase.name}</h3>
@@ -48,7 +48,7 @@ export function ShopPreview() {
            whileInView={{ opacity: 1, y: 0 }}
            viewport={{ once: true }}
            onClick={() => document.getElementById('collection')?.scrollIntoView({ behavior: 'smooth' })}
-           className="px-10 py-3 border border-[#C5A059] text-[#C5A059] font-['Montserrat'] tracking-[0.2em] uppercase text-xs hover:bg-gradient-to-r hover:from-[#C5A059] hover:to-[#E8D0A9] hover:text-[#1A0F0A] transition-all duration-400 transform hover:scale-105"
+           className="px-10 py-3 border border-[#C5A059] text-[#C5A059] font-['Montserrat'] tracking-[0.2em] uppercase text-xs hover:bg-gradient-to-r hover:from-[#C5A059] hover:to-[#E8D0A9] hover:text-[#4A3528] transition-all duration-400 transform hover:scale-105"
         >
           View Full Collection
         </motion.button>

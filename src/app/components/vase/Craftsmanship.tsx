@@ -9,7 +9,7 @@ export function Craftsmanship() {
   ];
 
   return (
-    <section id="craft" className="py-16 md:py-24 bg-[#1A0F0A] relative z-20 overflow-hidden">
+    <section id="craft" className="py-16 md:py-24 bg-[#4A3528] relative z-20 overflow-hidden">
         <div className="max-w-6xl mx-auto px-6">
         <motion.div 
           initial={{ opacity: 0, y: 30 }}
@@ -26,7 +26,7 @@ export function Craftsmanship() {
               viewport={{ once: true }}
               className="flex flex-col items-center group p-8 hover:bg-[#FDFBF7]/[0.02] transition-colors duration-500 rounded-sm"
             >
-              <div className="w-20 h-20 rounded-full border border-[#C5A059] flex items-center justify-center mb-8 group-hover:scale-110 group-hover:bg-[#C5A059] group-hover:text-[#1A0F0A] text-[#C5A059] transition-all duration-500">
+              <div className="w-20 h-20 rounded-full border border-[#C5A059] flex items-center justify-center mb-8 group-hover:scale-110 group-hover:bg-[#C5A059] group-hover:text-[#4A3528] text-[#C5A059] transition-all duration-500">
                 <step.icon size={32} strokeWidth={1} />
               </div>
               <h3 className="font-['Cormorant_Garamond'] text-3xl text-[#FDFBF7] mb-4 tracking-wide">{step.title}</h3>

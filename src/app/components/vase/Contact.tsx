@@ -3,7 +3,7 @@ import { Divider } from './Divider';
 
 export function Contact() {
   return (
-    <section id="contact" className="bg-[#1A0F0A] pb-12 pt-0">
+    <section id="contact" className="bg-[#4A3528] pb-12 pt-0">
       <Divider />
       
       <div className="max-w-4xl mx-auto px-6 pt-24 pb-36 text-center space-y-12">

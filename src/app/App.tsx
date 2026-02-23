@@ -9,7 +9,7 @@ import { Contact } from './components/vase/Contact';
 
 export default function App() {
   return (
-    <div className="bg-[#1A0F0A] min-h-screen text-[#FDFBF7] selection:bg-[#C5A059] selection:text-[#1A0F0A] overflow-x-hidden w-full">
+    <div className="bg-[#4A3528] min-h-screen text-[#FDFBF7] selection:bg-[#C5A059] selection:text-[#4A3528] overflow-x-hidden w-full">
       <Navbar />
       <Hero />
       <Divider />
